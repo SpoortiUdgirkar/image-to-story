@@ -65,6 +65,7 @@ def main() -> None:
     st.set_page_config(page_title="IMAGE TO STORY CONVERTER", page_icon="🖼")
     st.markdown(css_code, unsafe_allow_html=True)
     st.image("name5.webp")
+    st.audio("Ishq Hai.mp3")
     with st.sidebar:
         st.image("name5.webp")
         st.write("AI App created by @ PragyanAI - Education Purpose")
