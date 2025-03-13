@@ -64,10 +64,10 @@ def generate_story_from_text(scenario: str) -> str:
 def main() -> None:
     st.set_page_config(page_title="IMAGE TO STORY CONVERTER", page_icon="🖼")
     st.markdown(css_code, unsafe_allow_html=True)
-    st.image("name5.webp")
+    st.image("Screenshot 2025-03-13 153447.png")
     st.audio("Ishq Hai.mp3")
     with st.sidebar:
-        st.image("name5.webp")
+        st.image("Screenshot 2025-03-13 153447.png")
         st.write("AI App created by @ PragyanAI - Education Purpose")
         st.write("Contact Sateesh Ambesange for 5 Days Workshop:pragyan.ai.school@gmail.com")
         st.write("TB - Story to Audio will be done Later")
